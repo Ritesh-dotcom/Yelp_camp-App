@@ -1,0 +1,30 @@
+<%- include("../partials/header") %>
+
+
+<div class="container mt-5" style="width: 30%">
+	<div>
+		<div>
+			<h3>Create a new Campground</h3>
+		</div>
+		<div class="mt-4">
+			<form action="/campgrounds/<%= campground._id %>?_method=PUT" method="POST">
+				<div class="form-group">
+					<label for="exampleInputEmail1">Name Of Image</label>
+					<input  class="form-control" type="text" id="exampleInputEmail1" name="campground[name]" value="<%= campground.name %>">
+				</div>
+				<div class="form-group">
+					<label for="exampleInputPassword1">Image URL</label>
+					<input  class="form-control" type="text" id="exampleInputPassword1" name="campground[url]" value="<%= campground.image %>">
+				</div>
+				<div class="form-group">
+					<label for="description1">Give Your View</label>
+					<input  class="form-control" type="text" id="description1" name="campground[description]" value="<%= campground.description %>">
+				</div>
+				<button  type="submit" class="btn btn-lg btn-primary btn-block">Submit</button>
+			</form>
+			<a href="/campgrounds">Go Back</a>
+		</div>
+	</div>
+</div>
+
+<%- include("../partials/footer") %>

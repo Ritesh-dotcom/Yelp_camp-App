@@ -1,0 +1,22 @@
+.cont2{
+	margin-top: 3rem;
+}
+
+.img-thumbnail img{
+	width: 100%;
+}
+
+.img-thumbnail{
+	padding: 0;
+}
+
+svg{
+	font-size: 22px;
+	margin-bottom: 8px;
+	margin-left: 30px;
+}
+
+#shiftdwn{
+	margin-top: 0.1rem;
+}
+
