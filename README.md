@@ -1,4 +1,5 @@
 # Yelp_camp-App
+Technologies used: HTML, CSS, JavaScript, Bootstrap 4, Node js, Express js, MongoDB
 This is a fully responsive CRUD application implemented
 with MEN Stack and Passport.js for complete authentication.
 
